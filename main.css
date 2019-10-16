@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 29, 2018, 8:30:56 PM
+    Author     : hakankocak
+*/
+
+
+#first h1{
+    text-align: center;
+    margin-top:150px;
+    margin-left: auto;
+    font-family: 'palatino', serif;
+    font-size: 50px;
+    color:#999;
+    letter-spacing: 8px;
+}
+#page1{
+    width: 500px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 200px;
+    margin: 10px auto;
+}
+#start{
+    position:absolute;
+    font-family: 'palatino', serif;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s ease;
+    left:46%;
+}
+#start:hover{
+    transition: 1s ease;
+    background-color: #9999ff;
+}
+
+#display{
+    font-family: 'palatino', serif;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%); 
+    letter-spacing: 2px;
+    color:#cccccc;
+}
+
+#second{
+    position: absolute;
+    opacity:0;
+    display: none;
+    left: 30%;
+}
+#second h1{
+    text-align: center;
+    margin-top:150px;
+    font-family: 'palatino', serif;
+    color:#999;
+    letter-spacing: 2px;
+}
+#second #container{
+    margin: 10px auto;
+    width:500px;
+    height: 150px;
+    display:flex;
+}
+#second #container img{
+    width: 100px;
+    border-radius: 10px;
+    opacity:0.6;
+    transition: 0.7s ease;
+}
+#second #container img:hover{
+    transition: 0.7s ease;
+    opacity:1.0;
+}
+#left{
+    height: 100px;
+    margin-right: 35px;
+    margin-left:70px;
+}
+#middle{
+    height: 100px;
+    margin-right: 35px;
+}
+#right{
+    height: 100px;
+}
+#continue{
+    display: none;
+    position: absolute;
+    font-family: 'palatino', serif;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 0px;
+    transition: 1s ease;
+    opacity:0;
+    color:#666666;
+    left:39%;
+}
+#continue:hover{
+    background-color:#9999ff;
+    transition: 1s ease;
+    color:black;
+}
+#third{ 
+    position:absolute;
+    display:none;
+    width: 500px;
+    margin:0px auto;
+    left: 30%;
+}
+#congrats{
+    display:none;
+    position: absolute;
+    width: 600px;
+}
+#congrats h1{
+    font-family: 'palatino', serif;
+    font-size: 40px;
+    color: black;
+}
+#third #thirdContainer{
+    border:1px solid #999999;
+    background-color:#c7cccc;
+    margin-top:120px;
+    margin-right: auto;
+    margin-left: auto;
+    width:462px;
+    height: 462px;
+    position:relative;
+}
+#third #thirdContainer div{
+    border-radius: 15px;
+    margin:3px 3px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+#third #thirdContainer div img{
+    border-radius: 15px;
+    width: 150px;
+}
+
+#info{
+    display:flex;
+}
+#shuffleSelector{
+    position:absolute;
+    left: 47%;
+    margin-top:20px;
+}
+#backg{
+    background:url("");
+}
+#info h3{
+    color:#999;
+    position:absolute;
+    left:35%;
+}
+#solve{
+    color:#999;
+    position: absolute;
+    left: 10%;
+    display:none;
+    font-family: 'palatino', serif;
+    font-size: 48px;
+}
+#shuffleButton{
+    display:none;
+    font-family: 'palatino', serif;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s ease;
+    color:#666666;
+    position:absolute;
+    margin-top: 55px;
+    left: 45%;
+}
+#shuffleButton:hover{
+    background-color:#9999ff;
+    transition: 1s ease;
+    color:black;
+}
+
+    
